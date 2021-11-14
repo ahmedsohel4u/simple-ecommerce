@@ -11,6 +11,5 @@ if(hamburger) {
 if(crossIcon) {
     crossIcon.addEventListener('click', (a) => {
         navLink.style.display = 'none';
-
-    })
-}
+    });
+};

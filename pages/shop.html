@@ -12,9 +12,32 @@
     />
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="../css/style.css"/>
-    <title>Simple E-commerce website template design using HTML || CSS || Javascript</title>
+    <title>Shop Pages || design using HTML || CSS || Javascript</title>
+    <style>
+      .header{
+        min-height: 0;
+      }
+      .nav-center .nav-link a {
+        color: #222;
+      }
+      .navigation .nav-center .logo{
+        color: #222;
+      }
+      .cross-icon {
+        color: #222;
+      }
+      .icon a {
+        color: #222;
+      }
+      .icon {
+        color: #222;
+      }
+      .hamburger {
+        color: #222;
+      }
+    </style>
   </head>
-  <body style="background-color: #222;">
+  <body>
     <!-- Header  -->
     <header class="header" id="header">
       <!-- top nav  -->
@@ -34,11 +57,11 @@
         <div class="nav-center container d-flex">
           <a href="index.html" class="logo"><h2>E-COM</h2></a>
           <ul class="nav-link d-flex">
-            <li class="nav-item"><a href="./index.html">Home</a></li>
-            <li class="nav-item"><a href="./index.html">Collections</a></li>            
-            <li class="nav-item"><a href="./pages/shop.html">Shop</a></li>
-            <li class="nav-item"><a href="./pages/shop.html">Our Brand</a></li>
-            <li class="nav-item"><a href="./pages/about.html">Pages</a></li>
+            <li class="nav-item"><a href="../index.html">Home</a></li>
+            <li class="nav-item"><a href="./collection.html">Collections</a></li>            
+            <li class="nav-item"><a href="./shop.html">Shop</a></li>
+            <li class="nav-item"><a href="./about.html">Our Brand</a></li>
+            <li class="nav-item"><a href="./contact.html">Pages</a></li>
 
             <!-- Mobile icons  -->
 
@@ -60,7 +83,6 @@
                 </div>
             </li>
           </ul>
-
 
           <!-- Right side icons for desktop  -->
           <div class="icons d-flex">
@@ -89,11 +111,36 @@
       </div>
     </header>
 
+    <!-- Top promotion seciton  -->
+
+    <section class="promo">
+      <div class="promo-text container">
+        <span>Up to <span class="color">70%</span> sales off</span>
+        <h1>Flash sales is going on</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur doloremque, <br> explicabo aperiam, quis quasi accusantium deleniti</p>
+      </div>
+    </section>
+
     <!-- New arivals products section  -->
     <section class="section new-arrival">
-      <div class="title">
-        <h1>New arrivals</h1>
-        <p>Lasted high quality product on cheap price get your now</p>
+      <div class="top-text">
+        <div class="left-text">
+          <h4>All Products</h4>
+        </div>
+        <div class="right-sort">
+          <select name="sort"id="sort">
+            <option value="sort by value">Sort by product</option>
+            <option value="sort by value">Sort by size</option>
+            <option value="sort by value" selected>Sort by categories</option>
+            <option value="sort by value">Sort by collection</option>
+            <option value="sort by value">Sort by lower price</option>
+          </select>
+
+          <div class="search-box">
+            <input type="search" id="" placeholder="Type your keyword here...">
+            <button type="submit">Search</button>
+          </div>
+        </div>
       </div>
       
       <!-- products part -->
@@ -214,6 +261,94 @@
         <div class="product">
           <div class="product-overlay">
             <a href="./pages/product.html" class="product-thum">
+                <img src="../images/product-8.jpg" alt="">
+            </a>
+          </div>
+          <div class="product-info">
+            <span>Men's cloths</span>
+            <a href="./pages/product.html">
+              crishmas t-shirt for both
+            </a>
+            <h4>$21.99</h4>
+          </div>
+          <span class="discount">34%</span>
+            <!-- hover icons  -->
+          
+            <ul class="icons">
+              <li> <i class="bx bx-heart"></i></li>
+              <li> <i class="bx bx-search"></i></li>
+              <li> <i class="bx bx-cart"></i></li>
+            </ul>
+        </div>
+        <div class="product">
+          <div class="product-overlay">
+            <a href="./pages/product.html" class="product-thum">
+                <img src="../images/product-3.jpg" alt="">
+            </a>
+          </div>
+          <div class="product-info">
+            <span>Men's cloths</span>
+            <a href="./pages/product.html">
+              t-shirt for men's
+            </a>
+            <h4>$21.99</h4>
+          </div>
+          <span class="discount">32%</span>
+            <!-- hover icons  -->
+          
+            <ul class="icons">
+              <li> <i class="bx bx-heart"></i></li>
+              <li> <i class="bx bx-search"></i></li>
+              <li> <i class="bx bx-cart"></i></li>
+            </ul>
+        </div>
+        <div class="product">
+          <div class="product-overlay">
+            <a href="./pages/product.html" class="product-thum">
+                <img src="../images/product-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="product-info">
+            <span>Men's cloths</span>
+            <a href="./pages/product.html">
+              trandy bag for both
+            </a>
+            <h4>$21.99</h4>
+          </div>
+          <span class="discount">45%</span>
+            <!-- hover icons  -->
+          
+            <ul class="icons">
+              <li> <i class="bx bx-heart"></i></li>
+              <li> <i class="bx bx-search"></i></li>
+              <li> <i class="bx bx-cart"></i></li>
+            </ul>
+        </div>
+        <div class="product">
+          <div class="product-overlay">
+            <a href="./pages/product.html" class="product-thum">
+                <img src="../images/product-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="product-info">
+            <span>Men's cloths</span>
+            <a href="./pages/product.html">
+              winter hodies for men's
+            </a>
+            <h4>$21.99</h4>
+          </div>
+          <span class="discount">35%</span>
+            <!-- hover icons  -->
+          
+            <ul class="icons">
+              <li> <i class="bx bx-heart"></i></li>
+              <li> <i class="bx bx-search"></i></li>
+              <li> <i class="bx bx-cart"></i></li>
+            </ul>
+        </div>
+        <div class="product">
+          <div class="product-overlay">
+            <a href="./pages/product.html" class="product-thum">
                 <img src="../images/product-5.jpg" alt="">
             </a>
           </div>
@@ -277,9 +412,16 @@
             </ul>
         </div>
       </div>
+      <div class="pagination">
+        <a href="javascript:void(0)">1</a>
+        <a href="javascript:void(0)">2</a>
+        <a href="javascript:void(0)">3</a>
+        <a href="javascript:void(0)">4</a>
+        <a href="javascript:void(0)">...</a>
+        <a href="javascript:void(0)"><i class="bx bx-right-arrow-alt"></i></a>
+      </div>
     </section>
     
   </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
-  <script src="./js/index.js"></script>
+  <script src="../js/index.js"></script>
 </html>

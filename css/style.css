@@ -432,3 +432,143 @@ li {
     margin-bottom: 3rem;
   }
 }
+
+/* Shop pages css  */
+
+.promo{
+  background-image: url('../images/collection-top.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 60vh;
+  color: var(--white);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+  text-align: center;
+}
+.promo-text span {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.promo-text h1{
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.promo-text p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.color {
+  color: var(--green);
+}
+select {
+  width: 20rem;
+  height: 4rem;
+  border: 1px solid #dfdfdf;
+  outline: var(--grey1);
+  margin-left: 3rem;
+  border-radius: 2px;
+  padding: .5rem;
+}
+.top-text {
+  max-width: 84%;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.left-text h4{
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.right-sort{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-box input{
+  width: 25rem;
+  height: 4rem;
+  border: 1px solid #dfdfdf;
+  outline: none;
+  margin-left: 5rem;
+  border-radius: 2px;
+  padding: .5rem;
+}
+.search-box button {
+  padding: 1.2rem 2rem;
+  background-color: var(--green);
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.search-box button:hover{
+  background-color: var(--black);
+  color: var(--white)
+
+}
+.pagination {
+  max-width: 84%;
+  margin: 3rem auto;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+.pagination a{
+  padding: 0.8rem 1.5rem;
+  border: 1px solid #dfdfdf;
+  transition: all .3s ease-in-out;
+  border-radius: 2px;
+  font-weight: 700;
+}
+.pagination a:first-child{
+  background-color: var(--green);
+  color: var(--white);
+}
+.pagination a:hover {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+/* Media quires for shop page top area  */
+
+@media screen and (max-width: 768px) {
+    .right-sort{
+      flex-direction: column;
+    }
+    .top-text {
+      flex-direction: column;
+      text-align: center;
+    }
+    .left-text{
+      margin-bottom: 4rem;
+    }
+    .search-box {
+      margin-top: 2rem;
+    }
+    .promo {
+      margin-top: 0;
+    }
+    select {
+      width: 25rem;
+      height: 4rem;
+      border: 1px solid #dfdfdf;
+      outline: var(--grey1);
+      margin-left: 5rem;
+      border-radius: 2px;
+      padding: .5rem;
+    }
+}
+@media screen and (max-width: 460px) {
+    .search-box button {
+      margin-top: 1rem;
+      margin-right: 12rem;
+    }
+}
