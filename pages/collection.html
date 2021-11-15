@@ -12,7 +12,7 @@
     />
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="../css/style.css"/>
-    <title>Simple E-commerce website template design using HTML || CSS || Javascript</title>
+    <title>Shop Pages || design using HTML || CSS || Javascript</title>
     <style>
       .header{
         min-height: 0;
@@ -55,7 +55,7 @@
       <!-- Navigation  -->
       <div class="navigation">
         <div class="nav-center container d-flex">
-          <a href="index.html" class="logo"><h2>E-COM</h2></a>
+          <a href="../index.html" class="logo"><h2>E-COM</h2></a>
           <ul class="nav-link d-flex">
             <li class="nav-item"><a href="../index.html">Home</a></li>
             <li class="nav-item"><a href="./collection.html">Collections</a></li>            
@@ -84,7 +84,6 @@
             </li>
           </ul>
 
-
           <!-- Right side icons for desktop  -->
           <div class="icons d-flex">
             <div class="hide-nav d-flex">
@@ -112,193 +111,60 @@
       </div>
     </header>
 
-    <!-- New arivals products section  -->
+    <!-- Top promotion seciton  -->
+
+    <section class="promo" style="background-image: url('../images/woman.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed; background-color: green;">
+      <div class="promo-text container">
+        <span>Up to <span class="color">70%</span> sales off</span>
+        <h1>Flash sales is going on</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur doloremque, <br> explicabo aperiam, quis quasi accusantium deleniti</p>
+      </div>
+    </section>
+
+    <!-- Collection top part  -->
     <section class="section new-arrival">
-      <div class="title">
-        <h1>New arrivals</h1>
-        <p>Lasted high quality product on cheap price get your now</p>
+      <div class="top-text">
+        <div class="left-text">
+          <h4>All Collections</h4>
+        </div>
+        <div class="right-sort">
+          <div class="search-box">
+            <input type="search" id="" placeholder="Type your keyword here...">
+            <button type="submit">Search</button>
+          </div>
+        </div>
       </div>
       
-      <!-- products part -->
+      <!-- collection list -->
 
       <div class="products-container">
-        <div class="product">
-          <div class="product-overlay">
-            <a href="./pages/product.html" class="product-thum">
-              <img src="../images/product-3.jpg" alt="">
+        <div class="collections container">
+          <div class="collection">
+            <a href="">
+              <img class="scale" src="../images/cat1.jpg" alt="">
+              <div class="collection-info">
+              <h1>Men's</h1>
+            </div>
             </a>
           </div>
-          <div class="product-info">
-            <span>Men's cloths</span>
-            <a href="./pages/product.html">
-              stylist t-shirt for men's
+          <div class="collection">
+            <a href="">
+              <img class="scale" src="../images/cat2.jpg" alt="">
+              <div class="collection-info">
+              <h1>women's</h1>
+            </div>
             </a>
-            <h4>$29.99</h4>
           </div>
-
-          <span class="discount">40%</span>
-
-            <!-- hover icons  -->
-          
-            <ul class="icons">
-              <li> <i class="bx bx-heart"></i></li>
-              <li> <i class="bx bx-search"></i></li>
-              <li> <i class="bx bx-cart"></i></li>
-            </ul>
+          <div class="collection">
+            <a href="">
+              <img class="scale" src="../images/cat3.jpg" alt="">
+              <div class="collection-info">
+              <h1 class="after">both</h1>
+            </div>
+            </a>
+          </div>
         </div>
-        <div class="product">
-          <div class="product-overlay">
-            <a href="./pages/product.html" class="product-thum">
-                <img src="../images/product-2.jpg" alt="">
-            </a>
-          </div>
-          <div class="product-info">
-            <span>Men's cloths</span>
-            <a href="./pages/product.html">
-              winter hodies for men's
-            </a>
-            <h4>$31.90</h4>
-          </div>
-          <span class="discount">30%</span>
-            <!-- hover icons  -->
-          
-            <ul class="icons">
-              <li> <i class="bx bx-heart"></i></li>
-              <li> <i class="bx bx-search"></i></li>
-              <li> <i class="bx bx-cart"></i></li>
-            </ul>
-        </div>
-        <div class="product">
-          <div class="product-overlay">
-            <a href="./pages/product.html" class="product-thum">
-                <img src="../images/product-4.jpg" alt="">
-            </a>
-          </div>
-          <div class="product-info">
-            <span>Women's cloths</span>
-            <a href="./pages/product.html">
-              warmfull hodies for womem's
-            </a>
-            <h4>$49.99</h4>
-          </div>
-
-          <!-- hover icons  -->
-
-          <ul class="icons">
-            <li> <i class="bx bx-heart"></i></li>
-            <li> <i class="bx bx-search"></i></li>
-            <li> <i class="bx bx-cart"></i></li>
-          </ul>
-        </div>
-        <div class="product">
-          <div class="product-overlay">
-            <a href="./pages/product.html" class="product-thum">
-                <img src="../images/product-1.jpg" alt="">
-            </a>
-          </div>
-          <div class="product-info">
-            <span>travel bag</span>
-            <a href="./pages/product.html">
-              tranding travels bag for travelers
-            </a>
-            <h4>$28.50</h4>
-          </div>
-          <span class="discount">20%</span>
-            <!-- hover icons  -->
-          
-            <ul class="icons">
-              <li> <i class="bx bx-heart"></i></li>
-              <li> <i class="bx bx-search"></i></li>
-              <li> <i class="bx bx-cart"></i></li>
-            </ul>
-        </div>
-        <div class="product">
-          <div class="product-overlay">
-            <a href="./pages/product.html" class="product-thum">
-                <img src="../images/product-6.jpg" alt="">
-            </a>
-          </div>
-          <div class="product-info">
-            <span>Men's cloths</span>
-            <a href="./pages/product.html">
-              custom name hodies for men's
-            </a>
-            <h4>$21.99</h4>
-          </div>
-          <span class="discount">15%</span>
-            <!-- hover icons  -->
-          
-            <ul class="icons">
-              <li> <i class="bx bx-heart"></i></li>
-              <li> <i class="bx bx-search"></i></li>
-              <li> <i class="bx bx-cart"></i></li>
-            </ul>
-        </div>
-        <div class="product">
-          <div class="product-overlay">
-            <a href="./pages/product.html" class="product-thum">
-                <img src="../images/product-5.jpg" alt="">
-            </a>
-          </div>
-          <div class="product-info">
-            <span>both cloths</span>
-            <a href="./pages/product.html">
-              beautifull t-shirts for both
-            </a>
-            <h4>$79.99</h4>
-          </div>
-          <span class="discount">50%</span>
-            <!-- hover icons  -->
-          
-            <ul class="icons">
-              <li> <i class="bx bx-heart"></i></li>
-              <li> <i class="bx bx-search"></i></li>
-              <li> <i class="bx bx-cart"></i></li>
-            </ul>
-        </div>
-        <div class="product">
-          <div class="product-overlay">
-            <a href="./pages/product.html" class="product-thum">
-                <img src="../images/product-8.jpg" alt="">
-            </a>
-          </div>
-          <div class="product-info">
-            <span>Men's cloths</span>
-            <a href="./pages/product.html">
-              viral t-shirt for men's
-            </a>
-            <h4>$39.99</h4>
-          </div>
-            <!-- hover icons  -->
-          
-            <ul class="icons">
-              <li> <i class="bx bx-heart"></i></li>
-              <li> <i class="bx bx-search"></i></li>
-              <li> <i class="bx bx-cart"></i></li>
-            </ul>
-        </div>
-        <div class="product">
-          <div class="product-overlay">
-            <a href="./pages/product.html" class="product-thum">
-                <img src="../images/product-4.jpg" alt="">
-            </a>
-          </div>
-          <div class="product-info">
-            <span>womem's cloths</span>
-            <a href="./pages/product.html">
-              Print on demand t-shirt
-            </a>
-            <h4>$19.19</h4>
-          </div>
-          <span class="discount">10%</span>
-            <!-- hover icons  -->
-          
-            <ul class="icons">
-              <li> <i class="bx bx-heart"></i></li>
-              <li> <i class="bx bx-search"></i></li>
-              <li> <i class="bx bx-cart"></i></li>
-            </ul>
-        </div>
+        
       </div>
     </section>
     
