@@ -674,7 +674,8 @@ select {
   display: block;
   font-size: 1.5rem;
   font-weight: 600;
-  margin: .5rem 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .input-container input{
   width: 40rem;
@@ -682,7 +683,9 @@ select {
   border: 1px solid #dfdfdf;
   border-radius: 3px;
   outline: none;
-  margin-bottom: 1rem;
+}
+.input-container p {
+  color: red;
 }
 .select-container input{
   display: inline-block;
@@ -716,3 +719,4 @@ select {
     margin: 1rem 0;
   }
 }
+

@@ -12,7 +12,7 @@
     />
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="../css/style.css"/>
-    <title>Shop Pages || design using HTML || CSS || Javascript</title>
+    <title>Sign Up</title>
     <style>
       .header{
         min-height: 0;
@@ -53,7 +53,7 @@
       </div>
 
       <!-- Navigation  -->
-      
+
       <div class="navigation">
         <div class="nav-center container d-flex">
           <a href="../index.html" class="logo"><h2>E-COM</h2></a>
@@ -70,16 +70,16 @@
               <i class='bx bx-x'></i>
             </div>
             <li class="icons d-flex">
-              <a href="./pages/login.html" class="icon"><i class="bx bx-user"></i></a>
+              <a href="./login.html" class="icon"><i class="bx bx-user"></i></a>
               <div class="icon">
                   <a href="javascript:void(0)"><i class="bx bx-search"></i></a>
                 </div>
                 <div class="icon">
-                  <a href="./pages/wishlist.html"><i class="bx bx-heart"></i></a>
+                  <a href="./wishlist.html"><i class="bx bx-heart"></i></a>
                   <span class="d-flex">0</span>
                 </div>
                 <div class="icon">
-                  <a href="./pages/cart.html"><i class="bx bx-cart"></i></a>
+                  <a href="./cart.html"><i class="bx bx-cart"></i></a>
                   <span class="d-flex">0</span>
                 </div>
             </li>
@@ -88,16 +88,16 @@
           <!-- Right side icons for desktop  -->
           <div class="icons d-flex">
             <div class="hide-nav d-flex">
-              <a href="./pages/login.html" class="icon"><i class="bx bx-user"></i></a>
+              <a href="./login.html" class="icon"><i class="bx bx-user"></i></a>
               <div class="icon">
                   <a href="javascript:void(0)"><i class="bx bx-search"></i></a>
                 </div>
                 <div class="icon">
-                  <a href="./pages/wishlist.html"><i class="bx bx-heart"></i></a>
+                  <a href="./wishlist.html"><i class="bx bx-heart"></i></a>
                   <span class="d-flex">0</span>
                 </div>
                 <div class="icon">
-                  <a href="./pages/cart.html"><i class="bx bx-cart"></i></a>
+                  <a href="./cart.html"><i class="bx bx-cart"></i></a>
                   <span class="d-flex">0</span>
                 </div>
             </div>
@@ -116,18 +116,21 @@
       <div class="contact-area">
         <h1>Sign Up</h1>
         <p>Already have an account? <a href="./login.html">Login</a></p>
-        <form action="#" method="POST">
+        <form action="#" method="POST" id="form">
           <div class="input-container">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter Email">
+            <input type="text" name="email" id="email" placeholder="Enter Email">
+            <p id="emailValidation"></p>
           </div>
           <div class="input-container">
             <label for="password">Password</label>
             <input type="password" name="Password" id="password" placeholder="Enter Password">
+            <p id="passwordStrnth"></p>
           </div>
           <div class="input-container">
             <label for="repeatPassword">Conform Password</label>
-            <input type="email" name="email" id="repeatPassword" placeholder="Conform Password">
+            <input type="password" name="email" id="repeatPassword" placeholder="Conform Password">
+            <p id="matchPassword"></p>
           </div>
           <div class="select-container">
             <input type="checkbox" name="checkbox" id="checkbox">
